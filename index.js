@@ -7,15 +7,15 @@ function initMap() {
     // マップの初期化処理を行う
     const map = new google.maps.Map(mapElement, {
         center: {
-            lat: -34.397, //経度
-            lng: 150.644 //緯度
+            lat: 35.7356, //経度
+            lng: 139.6516 //緯度
         },
-        zoom: 2
+        zoom: 15
     });
 
     // マーカーの追加
     const marker = new google.maps.Marker({
-        position: { lat: -34.397, lng: 150.644 }, // マーカーを立てる位置の指定
+        position: { lat: 35.7356, lng: 139.6516 }, // マーカーを立てる位置の指定
       map: map // マーカーを立てる地図の指定
    });
 }
